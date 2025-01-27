@@ -17,6 +17,10 @@ class BusinessLogic {
         dairy.addMark(newMark);
     }
 
+    public List<Mark> getAllMarks(){
+        return dairy.getMarks();
+    }
+
     // find all marks by subject
     public List<Mark> findMarksBySubjects(String subject) {
         List<Mark> subjectMarks = new ArrayList<>();

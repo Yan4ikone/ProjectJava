@@ -17,7 +17,7 @@ class BusinessLogicTest {
         bl.addMark("Eng", 6);
         bl.addMark("Math", 10);
         int bestMark = bl.findBestMark("Eng");
-        if (bestMark == 7) {
+        if (bestMark == 6) {
             System.out.println("Ok");
         } else {
             System.out.println("Fail");
